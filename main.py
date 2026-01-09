@@ -20,10 +20,10 @@ async def raiz():
 @app.get("/status")
 async def pegar_status():
     status_opcoes = [
-        {"status": "Estável", "cor": "green", "detalhes": "Operação rodando 100%"},
-        {"status": "Instável", "cor": "yellow", "detalhes": "Flutuação de tráfego detectada"},
-        {"status": "Faliu!", "cor": "red", "detalhes": "Encerrando atividades. Procure o RH"},
-        {"status": "Em Crescimento", "cor": "blue", "detalhes": "Contratando novos talentos"}
+        {"status": "PISCA", "cor": "green", "detalhes": "Operação rodando 100%"},
+        {"status": "MRBLINK", "cor": "yellow", "detalhes": "Flutuação de tráfego detectada"},
+        {"status": "OROCHINO", "cor": "red", "detalhes": "Encerrando atividades. Procure o RH"},
+        {"status": "MILTON", "cor": "blue", "detalhes": "Contratando novos talentos"}
     ]
     
     # Escolhe um status aleatório
